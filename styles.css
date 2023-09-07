@@ -535,3 +535,7 @@ section.pricing {
 .about-us-card{
     background-color: var(--secondary-brown);
 }
+
+footer{
+    background-color: var(--secondary-brown);
+}
