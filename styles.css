@@ -10,7 +10,7 @@
     --gray-3:#4D4D4D;
     --black: #282828;
     --white: #FFFFFF;
-    --secondary-brown: #B07D50;
+    --secondary-brown: #8B6341;
     --secondary-green-1: #4A845B;
     --secondary-green-2:#5B7051;
     --secondary-beige:#CBB99D;
@@ -150,6 +150,28 @@ h1{
     font-style: normal;
     font-weight: 700;
     line-height: 63.9px; /* 122.885% */
+}
+
+h2{
+    /* Heading 2 */
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px; /* 136.111% */
+}
+
+.h2-center{
+    text-align: center;
+}
+
+h4{
+    /* Heading 4 */
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
 }
 
 img{
@@ -327,3 +349,13 @@ img{
     }
 }
 
+.card-img{
+    max-width: 40%;
+    height: auto;
+    margin: auto;
+  display: block;
+}
+
+.benefits{
+    text-align: center;
+}
