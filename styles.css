@@ -153,7 +153,6 @@ h1{
 }
 
 h2{
-    /* Heading 2 */
     font-family: Nunito;
     font-size: 36px;
     font-style: normal;
@@ -163,6 +162,14 @@ h2{
 
 .h2-center{
     text-align: center;
+}
+
+h4{
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
 }
 
 .section-vision-layout {
