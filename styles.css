@@ -144,6 +144,47 @@ button{
     background-color: var(--gray-1);
 }
 
+h1{
+    color: var(--Primary-White, #F8F8F8);
+    /* Heading 1 */
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.9px; /* 122.885% */
+}
+
+
+.hero, .filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero {
+    background-color: var(--primary-green);
+
+    padding: 150px 42px;
+    margin: auto;
+}
+
+.hero-img{
+    zoom: 2;
+}
+
+.left, .right {
+    padding: 0 2rem;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.separated {
+    margin: 24px 0;
+}
+
 @media screen and (max-width: 1670px) {
     .navbar{
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
