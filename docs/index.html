@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="utf-8">
-      <title>Greenhouse</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Greenhouse is a web application focused on creating and storing records from the mushroom growing process"/>
-      <meta name="keywords" content="process,management,application,records,mushroom,harvest,growing"
-      <meta name="author" content="Integradis"/>
-      <meta name="copyright" content="Copyright Integradis team"/>
-      <link rel="stylesheet" href="styles.css">
-      <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <script src="myscripts.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Greenhouse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Greenhouse is a web application focused on creating and storing records from the mushroom growing process">
+  <meta name="keywords" content="process, management, application, records, mushroom, harvest, growing">
+  <meta name="author" content="Integradis">
+  <meta name="copyright" content="Copyright Integradis team">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="myscripts.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
 <body>
 
-  <nav class="navbar navbar-expand-lg sticky-top">
+  <nav class="navbar navbar-expand-lg sticky-top" aria-label="Main Navigation">
     <div class="container-fluid">
-      <a href="#" class="navbar-brand text-decoration-none"><img src="images/logo-white.png" alt="company logo">Greenhouse</a>
+      <a href="#" class="navbar-brand text-decoration-none" aria-label="Home"><img src="images/logo-white.png" alt="company logo">Greenhouse</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -55,63 +55,61 @@
             </div>
           </li>
         </ul>
-        <span class="navbar-text ">
+        <span class="navbar-text">
           <a href="https://greenhouse-open.netlify.app/" class="log-in text-decoration-none">Log in</a>
           <button type="button" class="button-secondary float-on-hover" onclick="location.href='https://greenhouse-open.netlify.app/'" role="link">Create account</button>
         </span>
       </div>
     </div>
-
   </nav>
   
-
-    <!-- Hero, Call to Action -->
-    <section class="hero p-5" id="hero">
-        <div class="container p-5">
-          <div class="row py-4 py-lg-6">
-              <div class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
-                  <div style="z-index:1" class="lc-block col-6 col-lg-10 mb-n3 mb-lg-0">
-                      <img src="images/hero-image.png" alt="Image of fabrication process">
-                  </div>
-              </div>
-              <div class="col-lg-7 px-lg-5 p-4">
-                  <div class="col-lg-10 ms-lg-5">
-                      <div class="lc-block mb-4">
-                          <h1>Document every process of your company with one platform</h1>
-                      </div>
-                      <div class="lc-block">
-                        <button type="button" class="button-secondary float-on-hover" onclick="location.href='https://greenhouse-open.netlify.app/'" role="link">Start</button>
-                      </div>
-                  </div>
-              </div>
+  <!-- Hero, Call to Action -->
+  <section class="hero p-5" id="hero" aria-labelledby="hero-heading">
+    <div class="container p-5">
+      <div class="row py-4 py-lg-6">
+        <div class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
+          <div style="z-index:1" class="lc-block col-6 col-lg-10 mb-n3 mb-lg-0">
+            <img src="images/hero-image.png" alt="Image of fabrication process">
           </div>
+        </div>
+        <div class="col-lg-7 px-lg-5 p-4">
+          <div class="col-lg-10 ms-lg-5">
+            <div class="lc-block mb-4">
+              <h1>Document every process of your company with one platform</h1>
+            </div>
+            <div class="lc-block">
+              <button type="button" class="button-secondary float-on-hover" onclick="location.href='https://greenhouse-open.netlify.app/'" role="link">Start</button>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- More Information Section -->
-    <section class="learn p-5" id="learn">
-      <div class="container p-5">
-        <div class="row py-4 py-lg-6">
-          <div class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
-            <div style="z-index:1" class="lc-block col-6 col-lg-10 mb-n3 mb-lg-0">
-                <img src="images/welcome.png" alt="Image of fabrication process">
-            </div>
+  <!-- More Information Section -->
+  <section class="learn p-5" id="learn" aria-labelledby="learn-heading">
+    <div class="container p-5">
+      <div class="row py-4 py-lg-6">
+        <div class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
+          <div style="z-index:1" class="lc-block col-6 col-lg-10 mb-n3 mb-lg-0">
+            <img src="images/welcome.png" alt="Image of fabrication process">
+          </div>
         </div>
-            <div class="col-lg-7 px-lg-5 p-4">
-                <div class="col-lg-10 ms-lg-5">
-                    <div class="lc-block mb-4">
-                        <h4>Learn</h4>
-                        <h2>Leave handwritten records behind</h2>
-                        <p>Welcome to Greenhouse, the web application that allows you to monitor and manage all your factory processes remotely, for a low subscription price.</p>
-                    </div>
-                    <div class="lc-block">
-                      <button type="button" class="button-primary float-on-hover" onclick="location.href='https://greenhouse-open.netlify.app/'" role="link">Start</button>
-                    </div>
-                </div>
+        <div class="col-lg-7 px-lg-5 p-4">
+          <div class="col-lg-10 ms-lg-5">
+            <div class="lc-block mb-4">
+              <h4>Learn</h4>
+              <h2>Leave handwritten records behind</h2>
+              <p>Welcome to Greenhouse, the web application that allows you to monitor and manage all your factory processes remotely, for a low subscription price.</p>
             </div>
+            <div class="lc-block">
+              <button type="button" class="button-primary float-on-hover" onclick="location.href='https://greenhouse-open.netlify.app/'" role="link">Start</button>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
     <section class="benefits p-5" id="benefits">
         <h4> OUR BENEFITS</h4>
@@ -221,16 +219,6 @@
             <p class="card-text">I am 20 years old and I am currently studying the fifth cycle of the software engineering degree at the Peruvian UPC. I consider that I am a person who is capable of working under pressure, in addition to being responsible and persevering.</p>
           </div>
         </div>
-      </div>
-      <div class="card-group p-5">
-
-        <div class="card border-0 rounded-3 shadow-lg m-2">
-          <img src="images/Jessica_Commetant.png" class="card-img-top card-img" alt="">
-          <div class="card-body">
-            <h3 class="card-title">Jessica Commetant</h3>
-            <p class="card-text">I am 19 years old and I am a software engineering student at the UPC. I am in the fifth cycle of my career.</p>
-          </div>
-        </div>
         <div class="card border-0 rounded-3 shadow-lg m-2">
           <img src="images/Alan_Galavis.png" class="card-img-top card-img" alt="">
           <div class="card-body">
@@ -238,32 +226,52 @@
             <p class="card-text">I am 20 years old and I am currently studying the sixth cycle of the software engineering degree at the UPC. I consider that I am organized, persevering and creative.</p>
           </div>
         </div>
-        <div class="card border-0 z-n1">
-          <div class="card-body">
-          </div>
-        </div>
       </div>
     </section>
 
-    <section class="about-the-project p-5" id="about-the-project">
+    <section class="hero p-5" id="hero">
       <div class="container p-5">
         <div class="row py-4 py-lg-6">
-          <div class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
-            <div style="z-index:1" class="lc-block col-6 col-lg-10 mb-n3 mb-lg-0">
-                <h2>About the project</h2>
-                <p>Greenhouse seeks to offer a advanced tecnological solution to the mushroom industry in Perú.</p>
+            <div class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
+                <div style="z-index:1" class="lc-block col-6 col-lg-10 mb-n3 mb-lg-0">
+                  <iframe height="100%" width="auto" src="https://www.youtube.com/embed/BMjgyGefraM"></iframe>
+                </div>
             </div>
-          </div>
             <div class="col-lg-7 px-lg-5 p-4">
                 <div class="col-lg-10 ms-lg-5">
                     <div class="lc-block mb-4">
-                      <img src="images/Logo_Servicio.jpeg" alt="">
+                        <h1>About the project</h1>
+                    </div>
+                    <div class="lc-block">
+                      <p>Greenhouse seeks to offer an advanced technological solution to the mushroom industry in Peru.</p>
                     </div>
                 </div>
             </div>
         </div>
-      </div>
+    </div>
   </section>
+
+  <section class="learn p-5" id="learn">
+    <div class="container p-5">
+      <div class="row py-4 py-lg-6">
+          <div class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
+              <div style="z-index:1" class="lc-block col-6 col-lg-10 mb-n3 mb-lg-0">
+                <iframe height="100%" width="auto" src="https://www.youtube.com/embed/GHF8mKq5Sak"></iframe>
+              </div>
+          </div>
+          <div class="col-lg-7 px-lg-5 p-4">
+              <div class="col-lg-10 ms-lg-5">
+                  <div class="lc-block mb-4">
+                      <h1>About the team</h1>
+                  </div>
+                  <div class="lc-block">
+                    <p>Integradis seeks to offer an advanced technological solutions in Peru.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 
     <section class="contact p-5" id="contact">
         <div class="container-fluid px-5 my-5 p-5">
@@ -473,9 +481,9 @@
         </div>
       </div>
     </section>
-  
-    <!-- Footer -->
-<footer class="footer text-center text-lg-start text-muted pt-3 p-5">
+
+  <!-- Footer -->
+  <footer class="footer text-center text-lg-start text-muted pt-3 p-5">
   <!-- Section: Social media -->
   <!-- Section: Social media -->
 
