@@ -26,5 +26,5 @@ document.addEventListener('click', function(event) {
         } else if (selectedLanguage == 'ES'){
             location.href="es_index.html";
         }
-    } 
+    }
 });
